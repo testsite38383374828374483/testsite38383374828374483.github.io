@@ -91,6 +91,19 @@ a, a:link, a:hover, a:active {
   .section__order {
     flex-direction: column;
   }
+  .section__title {
+    font-size: 2.5em;
+  }
+  .section-main {
+    padding: 0px;
+  }
+  .section-main-two-buttons > a {
+    margin: 0px !important;
+    width: auto !important;
+  }
+  a.btn-inline {
+    margin-right: 10px !important;
+  }
   .oleft {
     margin: 0px 0px;
     max-width: 100%;
