@@ -95,7 +95,7 @@ a, a:link, a:hover, a:active {
     font-size: 2.5em !important;
   }
   .section-main {
-    padding: 0px;
+    padding: 0px !important;
   }
   .section-main-two-buttons > a {
     margin: 0px !important;
