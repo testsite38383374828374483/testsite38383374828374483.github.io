@@ -1,0 +1,59 @@
+ul {
+    font-size: 25px;
+    color: #C3C3C3;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+ol {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section__metaforcards {
+    display: flex;
+    align-items: center;
+}
+
+#Metaforcards {
+    padding: 0px 40px;
+}
+
+.preview-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mleft p {
+    line-height: 1.5;
+}
+
+.mright {
+    padding-left: 100px;
+}
+
+.preview-card.startanim {
+    max-width: 450px;
+    height: auto;
+    padding: 0px 40px;
+}
+
+.preview-card.startanim > img {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+}
+
+.preview-card.startanim > img {
+    animation: 3s start-card-animation ease-in-out;
+    filter: brightness(1);
+}
+
+@keyframes start-card-animation{
+    from{
+        filter: brightness(0);
+    }
+    to{
+        filter: brightness(1);
+    }
+}

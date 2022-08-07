@@ -1,0 +1,157 @@
+@media screen and (max-width: 1600px) and (min-width: 601px){
+    .section__order {
+        flex-direction:row;
+    }
+
+    .oleft{
+        margin: 0px 0px;
+        max-width: 100%;
+        align-items: start;
+    }
+
+    .oleft_book-preview{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oleft_top{
+        width: 100%;
+    }
+
+    .oright_book-preview img{
+        max-width: 100%;
+    }
+
+    .oleft__title_2{
+        font-size: 25px;
+    }
+
+    .lr{
+        flex-direction: column-reverse;
+    }
+
+    .lr .left{
+        margin-top: 50px;
+    }
+
+    .lr .left p{
+        padding-right: 0px;
+        margin-tight: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .right{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .right img{
+        margin: 0px 0px !important;
+        animation: none !important;
+    }
+
+    .section-main-videoplayback{
+        padding: 4px;
+    }
+
+    .section-main-videoplayback > *{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section__metaforcards{
+        flex-direction:column;
+    }
+    
+    .mright {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .section-main p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section__order {
+        flex-direction:column;
+    }
+
+    .oleft{
+        margin: 0px 0px;
+        max-width: 100%;
+        align-items: start;
+    }
+
+    .oleft_book-preview{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .oleft_top{
+        width: 100%;
+    }
+
+    .oright_book-preview img{
+        max-width: 100%;
+    }
+
+    .oleft__title_2{
+        font-size: 25px;
+    }
+
+    .lr{
+        flex-direction: column-reverse;
+    }
+
+    .lr .left{
+        margin-top: 50px;
+    }
+
+    .lr .left p{
+        padding-right: 0px;
+        margin-tight: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .right{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .right img{
+        margin: 0px 0px !important;
+        animation: none !important;
+    }
+
+    .section-main h1{
+        text-align: center;
+    }
+
+    .section-main-videoplayback{
+        padding: 4px;
+    }
+
+    .section-main-videoplayback > *{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section__metaforcards{
+        flex-direction:column;
+    }
+
+    .mright {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .section-main p{
+        text-align: center;
+    }
+}

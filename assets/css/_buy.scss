@@ -1,0 +1,61 @@
+.oleft__title {
+    font-size: 25px;
+}
+
+#Order {
+    padding: 0px 40px;
+}
+
+.section__order {
+    display: flex;
+}
+
+.oright__title {
+    font-size: 25px;
+}
+
+.outline-btn-special {
+    border: 1px solid #dedede;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.btn-special-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.oright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+.oleft__title_2 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.oleft_book-preview {
+    max-width: 100%;
+}
+
+.oleft_book-preview img {
+    width: 100%;
+}

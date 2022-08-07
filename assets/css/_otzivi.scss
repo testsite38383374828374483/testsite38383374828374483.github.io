@@ -1,0 +1,24 @@
+.top__text {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.bottom_otzivi {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Otzivi {
+    padding: 0px 40px;
+}
+
+.otziv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.otziv-name {
+    font-size: 25px;
+}

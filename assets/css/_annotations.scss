@@ -1,0 +1,48 @@
+.scroll-tw {
+    display: flex;
+    overflow: hidden;
+    margin: 5% 0px;
+}
+
+.scroll-box {
+    display: none;
+}
+
+.scroll-box.switched {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0px 5%;
+}
+
+.scroll-center {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+div#Annotations {
+    padding: 10px 40px;
+}
+
+.left_scroll {
+    padding-right: 40px;
+}
+
+.scroll-box-title {
+    font-size: 35px;
+}
+
+.scroll-box-description {
+    font-size: 25px;
+}
+
+.right_scroll {
+    padding-left: 40px;
+}
+
+.section_annotations {
+    margin: 75px 0px;
+}
