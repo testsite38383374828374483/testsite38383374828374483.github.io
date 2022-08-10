@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: $primary-color;
+    background: $bg-color;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+a, a:link, a:hover, a:active{
+    color: inherit;
+    text-decoration: inherit;
+}
