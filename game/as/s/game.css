@@ -42,4 +42,34 @@ a.play_btn {
 a.play_btn:hover {
   background: #fff;
   color: #000;
+}
+
+main.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.d_top_selector {
+  padding: 10px 20px;
+  max-width: 600px;
+  margin: 0px auto;
+  flex-grow: 1;
+}
+
+.d_bottom_selector {
+  padding: 10px 20px;
+  max-width: 600px;
+  margin: 0px auto;
+  flex-grow: 1;
+}
+
+.d_center_selector {
+  padding: 10px 20px;
+  max-width: 600px;
+  margin: 0px auto;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
 }/*# sourceMappingURL=game.css.map */

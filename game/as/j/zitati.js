@@ -1,3 +1,7 @@
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 var zitati = `Ровно также, как устаревают наши взгляды, теперь эта люстра в новом мире смотрится убого.⁣⁣⠀
 ⁣⁣---
 У меня не так много времени, чтобы тратить его на слезы.⁣⁣⠀
@@ -197,6 +201,6 @@ var zitati = `Ровно также, как устаревают наши взг
 Сердце колотится так, что того и гляди вылетит из груди и поскачет детским мячиком до первого этажа, ставя точку на моей прошлой жизни. `;
 
 const getZitati = function(){
-    let zit = zitati.split('\n---');
-    return zit[Math.floor(Math.random() * (zit.length-1 - 0 + 1) + 0)];
+    let zit = zitati.split('\n⁣⁣---\n');
+    return zit[randomIntFromInterval(0, zit.length-1)];
 }
