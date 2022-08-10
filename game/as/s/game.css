@@ -44,6 +44,20 @@ a.play_btn:hover {
   color: #000;
 }
 
+a.play_btn_start {
+  margin: auto auto;
+  border: 1px solid #fff;
+  padding: 15px 60px;
+  border-radius: 120px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+a.play_btn_start:hover {
+  background: #fff;
+  color: #000;
+}
+
 main.main {
   display: flex;
   flex-direction: column;
