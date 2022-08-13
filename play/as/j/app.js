@@ -11,7 +11,7 @@ document.querySelector('.play_btn').onclick = function(){
     document.querySelector('main').append(document_bottom_selector);
     wipe(document_center_selector);
     let t = delay_type(document_center_selector, 'Устраивайтесь поудобнее: в уютном кресле под старым торшером начинается книжная терапия. Что прячется за каждым знаком? Боль, страх — или любовь, которая рушит границы реального? Жуткие и добрые, нежные и шокирующие истории оставят след в душе и заставят по-новому взглянуть на привычное.', 0, 50);
-    setTimeout(() => console.log(document_bottom_selector.innerHTML = '<a class="play_btn_start">Узнать цитату</a>'), 15000);
+    setTimeout(() => console.log(document_bottom_selector.innerHTML = '<a class="play_btn_start">Гадать по книге</a>'), 15000);
     setTimeout(cl1, 15001);
 }
 
