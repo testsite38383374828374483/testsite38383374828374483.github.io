@@ -108,3 +108,17 @@ a.btn-inline:hover {
     border: 1px solid #fff;
     cursor: pointer;
 }
+
+.outline-btn-special:hover {
+    background: #fff;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.outline-btn-special:hover > .btn-special-txt {
+    color: #000;
+}
+
+.outline-btn-special:hover > .btn-special-icon {
+    display: none;
+}

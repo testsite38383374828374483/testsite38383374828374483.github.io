@@ -138,6 +138,7 @@
         margin-right: 0px;
         width: 100%;
         max-width: 100%;
+        font-size: 25px;
         animation: none !important;
     }
 
@@ -175,5 +176,33 @@
 
     .section-main p{
         text-align: center;
+    }
+
+    .scroll-box-title {
+        font-size: 30px !important;
+    }
+    
+    .scroll-box-description {
+        font-size: 20px !important;
+    }
+    
+    .mleft p {
+        font-size: 20px !important;
+    }
+    
+    .mleft ul {
+        font-size: 20px !important;
+    }
+    
+    .oleft__title_2 {
+        font-size: 25px !important;
+    }
+    
+    .oleft_bottom {
+        margin-bottom: 30px !important;
+    }
+
+    .section_annotations{
+        margin: 0px 0px !important;
     }
 }
